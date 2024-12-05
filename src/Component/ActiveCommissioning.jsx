@@ -12,7 +12,7 @@ const initialActiveCommissioningData = [
   { id: 'AC005', customerName: 'Charlie Davis', product: 'Biomass Boiler B5', startDate: '2023-05-11', status: 'Pending', priority: 'Medium' },
 ];
 
-export default function ActiveCommissioning() {
+export default function ActiveCommissionin() {
   const [isOpen, setIsOpen] = useState(() => localStorage.getItem('sidebarOpen') === 'true');
   const [darkMode, setDarkMode] = useState(() => localStorage.getItem('darkMode') === 'true');
   const [activeCommissioning, setActiveCommissioning] = useState(initialActiveCommissioningData);
